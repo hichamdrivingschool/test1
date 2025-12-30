@@ -330,7 +330,6 @@ h1, h2, h3{
   background-image: url("assets/her1.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
 
   display:flex;
   align-items:center;
