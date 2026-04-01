@@ -216,8 +216,8 @@ function showResults() {
   document.getElementById("quizView").classList.add("hidden");
   document.getElementById("resultsView").classList.remove("hidden");
 
-  const phone = localStorage.getItem("quiz_phone") || "03466051 - 76083085";
-  document.getElementById("resultUser").textContent = ` مدرسة محمد عجور لتعليم قيادة السيارات — ${phone}`;
+  const phone = localStorage.getItem("quiz_phone") || "03500138";
+  document.getElementById("resultUser").textContent = `مدرسة هشام بو خليل — ${phone}`;
 
   const passed = quiz.score >= 24;
 
@@ -323,9 +323,9 @@ if (backBtn) {
   });
 }
 
-  const phone = localStorage.getItem("quiz_phone") || "03466051 - 76083085";
+  const phone = localStorage.getItem("quiz_phone") || "03500138";
 
-  document.getElementById("userName").textContent = " مدرسة محمد عجور لتعليم قيادة السيارات";
+  document.getElementById("userName").textContent = "مدرسة هشام بو خليل";
   document.getElementById("userPhone").textContent = phone;
 
   applyLangUI();
